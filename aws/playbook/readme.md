@@ -1,4 +1,4 @@
-ec2_instance terraform module
+<h1>ec2_instance terraform module</h1>
 
 A terraform module for making ec2 instances.
 
@@ -35,7 +35,7 @@ aws_secret_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 aws_region = "ap-southeast-1"
 
 
-How to use?
+<h1>How to use?</h1>
 
 CLI > terraform plan
 Refreshing Terraform state in-memory prior to plan...
