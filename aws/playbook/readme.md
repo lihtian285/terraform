@@ -19,21 +19,25 @@ You can use this in your terraform template with the following steps.
 
 Adding a module resource to your template, e.g. `main.tf`
 
-module "ec2_instance" 
+`
+module "ec2_instance" {
   instance_type = "${var.instance_type}"
   instance_name = "${var.instance_name}"
   ami_id = "${var.ami_id}"
   aws_access_key = "${var.aws_access_key}"
-  aws_secret_key = "${var.aws_secret_key}"
+  aws_secret_key = "${var.aws_secret_key}" 
   aws_region = "${var.aws_region}"
   subnet_id = "${var.subnet_id}"
   number_of_instances = "${var.number_of_instances}"
   user_data = "${var.user_data}"
 }
-Setting values for the following variables, either through terraform.tfvars or -var arguments on the CLI
-aws_access_key = "xxxxxxxxxxxxxxxxx"
-aws_secret_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-aws_region = "ap-southeast-1"
+`
+
+
+Setting values for the following variables, either through `terraform.tfvars` or -var arguments on the CLI
+aws_access_key = "xxxxxxxxxxxxxxxxx" <br /> 
+aws_secret_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx" <br /> 
+aws_region = "ap-southeast-1" <br /> 
 
 
 <h1>How to use?</h1>
