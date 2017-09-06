@@ -1,4 +1,4 @@
-# ec2_instance terraform module
+# EC2 instance terraform module and Sample of execution
 
 A terraform module for making ec2 instances.
 
