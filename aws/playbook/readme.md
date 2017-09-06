@@ -34,9 +34,9 @@ Adding a module resource to your template, e.g. `main.tf`
 
 Setting values for the following variables, either through `terraform.tfvars` or -var arguments on the CLI<br />
       
-    aws_access_key = "xxxxxxxxxxxxxxxxx" <br /> 
-    aws_secret_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx" <br /> 
-    aws_region = "ap-southeast-1" <br /> 
+    aws_access_key = "xxxxxxxxxxxxxxxxx"
+    aws_secret_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx" 
+    aws_region = "ap-southeast-1"
 
 
 # How to use?
