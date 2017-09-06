@@ -31,10 +31,11 @@ module "ec2_instance" {
   number_of_instances = "${var.number_of_instances}"
   user_data = "${var.user_data}"
 }
+
 `
 
 
-Setting values for the following variables, either through `terraform.tfvars` or -var arguments on the CLI
+Setting values for the following variables, either through `terraform.tfvars` or -var arguments on the CLI<br />
 aws_access_key = "xxxxxxxxxxxxxxxxx" <br /> 
 aws_secret_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx" <br /> 
 aws_region = "ap-southeast-1" <br /> 
