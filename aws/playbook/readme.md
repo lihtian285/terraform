@@ -125,10 +125,10 @@ Setting values for the following variables, either through `terraform.tfvars` or
 
 ### Example : 
 
-aws_instance.ec2_instance: Creation complete after 22s (ID: i-02fb1bd2ad22291d6)
+        aws_instance.ec2_instance: Creation complete after 22s (ID: i-02fb1bd2ad22291d6)
 
-Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+        Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 
-Outputs:
+        Outputs:
 
-ec2_instance_id = i-02fb1bd2ad22291d6
+        ec2_instance_id = i-02fb1bd2ad22291d6
