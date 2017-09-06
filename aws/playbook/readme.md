@@ -1,10 +1,10 @@
-<h1>ec2_instance terraform module</h1>
+# ec2_instance terraform module
 
 A terraform module for making ec2 instances.
 
 Assumes you're making your instances in a VPC.
 
-<h2> Sample of Resources</h2>
+## Sample of Resources
 `ami_id` - The AMI to use<br />
 `number_of_instances` - The number of instances you want made<br />
 `subnet_id` - The VPC subnet to place the instance in<br />
@@ -13,12 +13,13 @@ Assumes you're making your instances in a VPC.
 `user_data` - The path to the user_data file. Terraform will include the contents of this file while launching the instance<br />
 `tags` - A map for setting AWS tags<br /> 
 
-<h1>Usage</h1>
+# Usage
 
-`You` can use this in your terraform template with the following steps.
+You can use this in your terraform template with the following steps.
 
-Adding a module resource to your template, e.g. main.tf
-module "ec2_instance" {
+Adding a module resource to your template, e.g. `main.tf`
+
+module "ec2_instance" 
   instance_type = "${var.instance_type}"
   instance_name = "${var.instance_name}"
   ami_id = "${var.ami_id}"
