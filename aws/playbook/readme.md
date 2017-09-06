@@ -4,13 +4,14 @@ A terraform module for making ec2 instances.
 
 Assumes you're making your instances in a VPC.
 
-`ami_id` - The AMI to use
-`number_of_instances` - The number of instances you want made
-`subnet_id` - The VPC subnet to place the instance in
-`instance_type` - The EC2 instance type, e.g. m1.small
-`instance_name` - The instance name you want, this is used to populate the Name tag.
-`user_data` - The path to the user_data file. Terraform will include the contents of this file while launching the instance
-`tags` - A map for setting AWS tags.
+<h2> Sample of Resources</h2>
+`ami_id` - The AMI to use<br />
+`number_of_instances` - The number of instances you want made<br />
+`subnet_id` - The VPC subnet to place the instance in<br />
+`instance_type` - The EC2 instance type, e.g. m1.small<br />
+`instance_name` - The instance name you want, this is used to populate the Name tag<br />
+`user_data` - The path to the user_data file. Terraform will include the contents of this file while launching the instance<br />
+`tags` - A map for setting AWS tags<br /> 
 
 <h1>Usage</h1>
 
